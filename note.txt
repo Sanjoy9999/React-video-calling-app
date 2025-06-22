@@ -1,1 +1,14 @@
 chrome://webrtc-internals/
+
+
+client folder setup in github
+
+ after all code push git if not push inside code of client 
+
+follow these steps
+1)git rm --cached client
+2)rm -rf client/.git
+3)git add client
+4)git commit -m "Add client files properly"
+5)git push
+
